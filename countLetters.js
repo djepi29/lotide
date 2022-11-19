@@ -21,4 +21,4 @@ const countLetters = (strings) => {
   }
   return strCount;
 };
-console.log(countLetters(toLog));
+assertEqual(countLetters(toLog).s, 2 );
