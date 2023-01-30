@@ -10,15 +10,28 @@ const assertEqual = function(actual, expected) {
 
 const toLog = 'lighthouselabs'
 
-const countLetters = (strings) => {
-  let strCount = {};
-  for (let str of strings) {
-    if (strCount[str]) {
-      strCount[str] += 1;
-    } else {
-      strCount[str] = 1;
+const countLetters = (str) => {
+  let newStr = str.replaceAll(' ','');
+  newStr.split('');
+  let output = {};
+  for (let letter of newStr) {
+    if (output[letter]) {
+      output[letter] += 1
+    }
+    else {
+      output[letter] = 1
     }
   }
-  return strCount;
+  return output
+
+  // let strCount = {};
+  // for (let str of strings) {
+  //   if (strCount[str]) {
+  //     strCount[str] += 1;
+  //   } else {
+  //     strCount[str] = 1;
+  //   }
+  // }
+  // return strCount;
 };
-assertEqual(countLetters(toLog).s, 2 );
+assertEqual(countLetters(toLog)["s"], 2 );
