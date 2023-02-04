@@ -1,10 +1,21 @@
-const takeUntil = function(arr, callback) {
-  for (let i = 0; i < arr.length; i++){
-  if (callback(arr[i])){
-    return arr.slice(0,i);
+const takeUntil = function(array1, callback) {
+  let output = [];
+  for (let element of array1) {
+    if (callback(element)) {
+      break;
+    }else {
+    output.push(element);
   }
-}
- return arr
+  }
+  return output
+
+//   let results = [];
+//   for (let i = 0; i < array1.length; i++){
+//   if (callback(array1[i])){
+//     results = array1.slice(0,i);
+//   }
+// }
+//  return results
 };
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
