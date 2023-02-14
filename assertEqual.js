@@ -1,4 +1,4 @@
-// FUNCTION IMPLEMENTATION
+// "strictly/===" compares two variables and prints out a statement for truthy or false outcome. 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -7,8 +7,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(2, 3);
+module.exports = assertEqual;
