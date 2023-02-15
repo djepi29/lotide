@@ -1,7 +1,7 @@
 
 //imported functions
 const assertArraysEqual = require("../assertArraysEqual")
-const eqArrays = require("../eqArrays")
+
 
 
 //test cases
