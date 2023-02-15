@@ -2,7 +2,7 @@
 const tail = require("../tail")
 const assertEqual = require("../assertEqual")
 
-// tests cases
+// test cases
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result, ["Lighthouse", "Labs"]);
