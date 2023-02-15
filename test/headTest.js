@@ -1,6 +1,9 @@
+//imported libraries & functions
 const assert = require("chai").assert;
 const head = require("../head");
 
+
+//test cases
 describe("#head", () => {
   it("returns 1 for [1, 2, 3]", () => {
     assert.strictEqual(head([1, 2, 3]), 1)
@@ -17,8 +20,6 @@ describe("#head", () => {
   it("returns undefined for empty array", () => {
     assert.strictEqual(head([]), undefined);
   });
-
-
 
 
 });
