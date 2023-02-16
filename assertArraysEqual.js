@@ -1,5 +1,5 @@
-//imported function 
-const eqArrays = require("./eqArrays")
+//imported function
+const eqArrays = require("./eqArrays");
 
 
 //function to assert two arrays based off eqArrays.js return (boolean)

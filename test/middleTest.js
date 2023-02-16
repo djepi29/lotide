@@ -1,6 +1,6 @@
 //imported libraries & functions
 const assert = require('chai').assert;
-const middle = require("../middle")
+const middle = require("../middle");
 
 
 //test cases

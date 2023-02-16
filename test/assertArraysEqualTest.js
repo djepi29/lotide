@@ -1,6 +1,6 @@
 
 //imported functions
-const assertArraysEqual = require("../assertArraysEqual")
+const assertArraysEqual = require("../assertArraysEqual");
 
 
 

@@ -1,6 +1,6 @@
 // impoerted functions
 const assert = require("chai").assert;
-const tail = require("../tail")
+const tail = require("../tail");
 //const assertEqual = require("../assertEqual")
 
 // test cases
