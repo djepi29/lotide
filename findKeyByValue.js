@@ -1,4 +1,4 @@
-
+// function to seach key matching specified value
 const findKeyByValue = (object, value) => {
   let winningKey = '';
   let keyArray = Object.keys(object);
