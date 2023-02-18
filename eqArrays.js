@@ -1,4 +1,4 @@
-//function to (striclty/===) compare two arrays given arrays
+//function to (striclty/===) compare two arrays
 // codes makes use of assertEqual funciton
 
 const eqArrays = function(array1, array2) {

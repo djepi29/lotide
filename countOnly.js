@@ -1,4 +1,4 @@
-// function to store the specific elements of an array as keys in an object
+// given a list of items, function keep watch of specified elements and logs occurence in an object
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
   for (let item of allItems) {
