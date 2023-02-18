@@ -25,36 +25,33 @@ This project was created and published by me as part of my learnings at Lighthou
 ## Documentation
 
 The following functions are currently implemented:
-  * `head`: function returns first element of an array.
+  * `head`: function that takes in an array and returns the first element in the array.
 
-  * `middle`: funciton returns middle elemetns of an array.
+  * `middle`: function that takes in an array and returns middle most element of the array.
+  * `tail`: function that takes in an array and returns everything except the first element of the array.
+  * `assertArraysEqual`: function that takes in 2 arrays and returns true if they are equal and false otherwise.
 
-  * `tail`: funciton returns all elements except the first one of an array.
+  * `assertEqual`: function that takes in 2 values and returns true if they are equal and false otherwise.
 
-  * `assertArraysEqual`: function asserts two arrays (boolean).
+  * `countLetters`: function that takes in a sentence and returns a count of each of the letters in the sentence.
 
-  * `assertEqual`: function asserts two elements.
+  * `countOnly`:  function that takes in a collection of items and returns a specific subset of those items.
+  * `eqArrays`: function that takes in 2 arrays and returns true if the arrays are equal and false otherwise.
 
-  * `countLetters`: function logs occurence of leters of a string.
+  * `eqObjects`: function that takes in 2 objects and return true if they are equal and false otherwise.
 
-  * `countOnly`:    function keep watch of specified elements and logs occurence in an object.
+  * `findKey`: function that takes in an object and callback and returns the first key that meets the criteria specified in callback.
 
-  * `eqArrays`: function compares/=== two arrays (boolean).
+  * `findKeyByValue`:  function that takes in an object and a value and returns the first key that corresponds to that value.
 
-  * `eqObjects`: funciton compares/=== two objects (boolean).
+  * `flatten`: function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
 
-  * `findKey`: funciton finds key of object by callback.
+  * `letterPositions`: function that takes in a string and returns all indices of letter positions in the string.
 
-  * `findKeyByValue`: funciton finds key of objects by given value.
+  * `map`: function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
 
-  * `flatten`: funciton unnest (2 levels)nesteed arrays.
+  * `takeUntil`: function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
 
-  * `letterPositions`: funciton prints index of letters of a string.
+  * `without`: function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.
 
-  * `map`: funciton modifies element of an array by callback.
-
-  * `takeUntil`: funciton logs element of an array untill given triger to stop.
-
-  * `without`: funciton filters an array with another array.
-
-  * `assertObjectsEqual`: function asserts two objects.
+  * `assertObjectsEqual`: function that takes in 2 objects and returns true if they are equal and false otherwise.

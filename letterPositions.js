@@ -6,7 +6,7 @@ const letterPositions = (sentence) => {
     if (strPosition[sentence[i]]) {
       strPosition[sentence[i]].push(i);
     } else {
-      strPosition[sentence[i]] = [sentence.indexOf(sentence[i])];
+      strPosition[sentence[i]] = [i];
     }
   }
 
