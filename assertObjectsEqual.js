@@ -1,5 +1,5 @@
 const eqObjects = require("./eqObjects");
-//function comapre two objects 
+//function comapre two objects
 const assertObjectsEqual = function(actual, expected) {
   const inspect = require('util').inspect;
   if (eqObjects(actual, expected)) {
